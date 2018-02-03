@@ -8,6 +8,8 @@
 
 - Whoever will be the client must alter the file "Server.py" by changing the value of the variable
   "HOST" to the value of the host's IP address.
+  
+  NOTE: Currently not able to connect. Working on the issue...
 
 
 
