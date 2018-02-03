@@ -12,7 +12,7 @@ import sys
 
 
 pygame.init()
-screen = pygame.display.set_mode((0, 0), pygame.RESIZABLE)
+screen = pygame.display.set_mode((1280, 800))
 
 pygame.display.set_caption("BattleDots")
 background = pygame.Surface(screen.get_size()) 
@@ -32,6 +32,7 @@ def doMenu():
     elif choice == 2:
         doInstructions()
     elif choice == 0:
+        pygame.quit()
         sys.exit()
         
 def doInstructions():     
